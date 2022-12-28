@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#moldura{
+    width: 450px;
+    height: 600px;
+    margin: auto;
+    margin-top: 20px;
+    border: 40px solid goldenrod;
+    border-top-color:rgb(219, 158, 3) ;
+    border-bottom-color:rgb(219, 158, 3) ;
+    box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.274),2px 2px 5px rgba(0, 0, 0, 0.274);
+    background-color: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#moldura img{
+    width: 420px;
+    height: 600px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.164),-2px -2px 2px rgba(0, 0, 0, 0.164);
+}
